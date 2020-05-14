@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bb8700ae-dd68-4e50-b0b9-f980700911bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/movies.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/drawerComponent/DrawerComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/drawerComponent/DrawerComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/searchMovie/SearchMovie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/searchMovie/SearchMovie.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,8 @@
       <workItem from="1588499611637" duration="6891000" />
       <workItem from="1588600437355" duration="166000" />
       <workItem from="1588600654381" duration="305000" />
-      <workItem from="1589204874176" duration="6084000" />
+      <workItem from="1589204874176" duration="7792000" />
+      <workItem from="1589468067593" duration="163000" />
     </task>
     <servers />
   </component>
