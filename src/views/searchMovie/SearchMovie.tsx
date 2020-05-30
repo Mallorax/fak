@@ -29,10 +29,13 @@ const SearchMovie = () => {
         setMovies(resp);
       }
     });
-
-    movieService.searchById('tt0848228');
   }, [movieToSearch]);
 
+  const fetchMovie = (id: string) => {
+    movieService.searchById(id).then(resp => {
+      console.log(resp)
+    });
+  }
 
   return (
     <div>
@@ -54,7 +57,7 @@ const SearchMovie = () => {
           <TableBody>
             {!!movies?.movies.length &&
             movies?.movies.map(movie => (
-              <TableRow key={movie.id}>
+              <TableRow key={movie.id} onClick={() => fetchMovie(movie.id)}>
                 <TableCell>
                   <img src={movie.poster}
                        alt={movie.title}/>

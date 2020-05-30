@@ -38,7 +38,7 @@ const DrawerComponent: React.FC<IDrawerComponentProps> = ({ shouldBeOpen }) => {
             >
                 <div className={classes.drawerContent}>
                         <RedirectTo path="/" name="Home"/>
-                        <RedirectTo path="/movie" name="Home"/>
+                        <RedirectTo path="/movie" name="Movie"/>
                         <RedirectTo path="/search" name="Search Movie"/>
                 </div>
             </Drawer>
