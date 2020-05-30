@@ -9,6 +9,7 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 import { makeStyles } from '@material-ui/core/styles';
+import {Link} from "react-router-dom";
 
 
 const useStyles = makeStyles({
@@ -31,12 +32,6 @@ const SearchMovie = () => {
     });
   }, [movieToSearch]);
 
-  const fetchMovie = (id: string) => {
-    movieService.searchById(id).then(resp => {
-      console.log(resp)
-    });
-  }
-
   return (
     <div>
       <NavPanel/>
@@ -57,7 +52,8 @@ const SearchMovie = () => {
           <TableBody>
             {!!movies?.movies.length &&
             movies?.movies.map(movie => (
-              <TableRow key={movie.id} onClick={() => fetchMovie(movie.id)}>
+              <TableRow key={movie.id}>
+                <Link to={`/search/${movie.id}`}> BUTTON</Link>
                 <TableCell>
                   <img src={movie.poster}
                        alt={movie.title}/>

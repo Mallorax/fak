@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3bea0ed-7b69-49b2-9a18-237c4eb066bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/movieDetails/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/drawerComponent/DrawerComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/drawerComponent/DrawerComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/movies.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/movies.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/movieDetails/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/movieDetails/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/searchMovie/SearchMovie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/searchMovie/SearchMovie.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590858296475</updated>
-      <workItem from="1590858390090" duration="6751000" />
+      <workItem from="1590858390090" duration="10849000" />
     </task>
     <servers />
   </component>
@@ -86,5 +85,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/services/movies.service.ts</url>
+          <line>78</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
