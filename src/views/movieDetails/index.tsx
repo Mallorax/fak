@@ -64,6 +64,7 @@ const MovieDetails = () => {
                 <div className={styles.image}>
                     <img src={Poster} alt={Title}/>
                     <div className={styles.rating}>Rating: {imdbRating}</div>
+                    <button type={"button"} onClick={handleAddToFavourites}>Add to favourites</button>
                 </div>
                 <div className={styles.description}>
                     <div className={styles.title}>Title: {Title}</div>

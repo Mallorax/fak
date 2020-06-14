@@ -21,7 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e3bea0ed-7b69-49b2-9a18-237c4eb066bb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/movieDetails/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/movieDetails/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/searchMovie/SearchMovie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/searchMovie/SearchMovie.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +51,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UWM_Lessons-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="ts.external.directory.path" value="D:\Uniwersity\fakultet\projekt\node_modules\typescript\lib" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="D:\Uniwersity\fakultet\fak\node_modules\typescript\lib" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -67,6 +72,8 @@
       <option name="presentableId" value="Default" />
       <updated>1590858296475</updated>
       <workItem from="1590858390090" duration="12980000" />
+      <workItem from="1592158610483" duration="2102000" />
+      <workItem from="1592160755945" duration="964000" />
     </task>
     <servers />
   </component>
@@ -83,6 +90,29 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1107" y="325" key="FileChooserDialogImpl" timestamp="1592160608140">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1107" y="325" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592160608140" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1592158822011">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1592158822011" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1592158822011">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1592158822011" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1592158822011">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1592158822011" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1592158822011">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1592158822011" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -90,7 +120,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/services/movies.service.ts</url>
           <line>78</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

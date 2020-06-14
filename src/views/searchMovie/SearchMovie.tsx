@@ -53,10 +53,11 @@ const SearchMovie = () => {
             {!!movies?.movies.length &&
             movies?.movies.map(movie => (
               <TableRow key={movie.id}>
-                <Link to={`/search/${movie.id}`}> BUTTON</Link>
                 <TableCell>
+                  <Link to={`/search/${movie.id}`}>
                   <img src={movie.poster}
                        alt={movie.title}/>
+                  </Link>
                 </TableCell>
                 <TableCell align="right"> {movie.title}</TableCell>
                 <TableCell align="right"> {movie.type}</TableCell>
